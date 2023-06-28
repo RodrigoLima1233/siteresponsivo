@@ -1,58 +1,58 @@
 @charset "UTF-8";
 
 * {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 body {
-    width: 100%;
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 2.5rem;
-    color: #333;
-    background: #000 url("../imagens/fundo-baixo.jpg") no-repeat center bottom;
+     width: 100%;
+     font-family: Verdana, Geneva, sans-serif;
+     font-size: 2.5rem;
+     color: #333;
+     background: #000 url("../imagens/fundo-baixo.jpg") no-repeat center bottom;
 }
 
 h1 {
   font-size: 4rem;
-    padding: 1.5rem   0rem 2rem 0rem;
+  padding-bottom: 1.5rem 0rem 2rem 0rem;
 }
 
 h2 {
-   font-size: 3rem;
-    padding: 1rem   0rem 1.5rem 0rem;
+  font-size: 3rem;
+  padding: 1rem 0rem 1.5rem 0rem;
 }
 
-p{
+p {
     margin: 0rem 0rem 2rem 0rem;
-    line-height: 4rem;
-}
-div#interface {
-   max-width: 900px;
-   min-width: 300px;
-   padding: 20px;
-   background-color: rgba(255, 255, 255, 0.75);
-   margin: auto;
+    line-height: 1.5em;
 }
 
+div#interface {
+    max-width: 940px;
+    min-width: 300px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.90);
+    margin: auto;
+}
 aside#logo-menu {
     width: 100%;
 }
 
 header {
     width: 100%;
-   text-align: center;
+    text-align: center;
     background-color: #fff;
 }
 
-header, section article, section .imagem, section {
-    margin: 0px 0px 15px 0px;
+header img {
+    margin: 12px 0px 10px 0px;
+    width: 80%;
 }
 
-header img {
-    margin; 12px 0px 10px 0px;
-    width: 80%;
+header, section article, section.imagem, section {
+    margin: 0px 0px 15px 0px;
 }
 
 nav ul li {
@@ -78,21 +78,19 @@ nav ul li a:hover {
 }
 
 section {
-    width: 700px;
-    float: right;
+    width: 100%;
 }
 
 article#texto, article#artigo-interno {
     width: 100%;
 }
 
-
 aside#imagens {
     width: 100%;
 }
 
 .imagem {
-    width: 80%;
+    width: 70%;
 }
 
 .video {
@@ -100,7 +98,7 @@ aside#imagens {
     height: 441px;
 }
 
-. mapa {
+.mapa {
     width: 800px;
     height: 1000px;
 }
@@ -113,18 +111,8 @@ footer {
 }
 
 footer a {
-    color: #000;
+    color: black;
     text-decoration: none;
     font-size: 1.7rem;
     font-style: italic;
 }
-
-
-
-
-
-
-
-
-
-

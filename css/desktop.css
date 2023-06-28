@@ -28,11 +28,12 @@ p{
     margin: 0px 0px 20px;
     line-height: 1.5em;
 }
+
 div#interface {
-   width: 940px;
-   padding: 10px 10px 0px 10px;
-   background-color: rgba(255, 255, 255, 0.75);
-   margin: auto;
+    width: 940px;
+    padding: 10px 10px 0px 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin: auto;
 }
 
 aside#logo-menu {
@@ -67,7 +68,7 @@ nav ul li a {
     text-decoration: none;
     display: block;
     font-size: 11pt;
-    transition: all 0.5s ease 0.3s;
+    transition: all 0.3s;
 }
 
 nav ul li a:hover {
@@ -97,40 +98,30 @@ aside#imagens {
 }
 
 .imagem {
-    width: 300px;
+width: 300px;
 }
 
 .video {
-    width: 560px;
-    height: 315px;
+width: 560px;
+height: 315px;
 }
 
 . mapa {
-    width: 600px;
-    height: 450px;
+width: 600px;
+height: 450px;
 }
 
 footer {
-    clear: both; /* limpa o efeito dos floats anteriores */
-    width: 100%;
-    line-height: 50px;
-    text-align: right;
-    border-top: 1px solid #333;
+clear: both; /* limpa o efeito dos floats anteriores */
+width: 100%;
+line-height: 50px;
+text-align: right;
+border-top: 1px solid #333;
 }
 
 footer a {
-    color: #000;
-    text-decoration: none;
-    font-size: 10pt;
-    font-style: italic;
+color: #000;
+text-decoration: none;
+font-size: 10pt;
+font-style: italic;
 }
-
-
-
-
-
-
-
-
-
-
